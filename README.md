@@ -1,9 +1,9 @@
-# TechBridge Task 1
+# TechBridge Task 2
 
-Live site: https://new-git-stack.github.io/techbridge-task-1/
+Live site: https://new-git-stack.github.io/techbridge-task-2/
 
 ![Desktop view](screenshots/Desktop_view.png)
 ![Mobile view](screenshots/Mobile_view.jpeg)
 
 ## Developer note
-My main idea was to match TechBridge’s brand colours as closely as possible, while adjusting the green slightly so the text and buttons stay readable. I built a responsive HTML and CSS website covering what the company does, its internship programs, the benefits for interns, and how to get in touch, and I tested it on my phone as well as my laptop. I learnt how to deploy a website to GitHub Pages, and my main challenge was that changes I pushed weren’t showing up on my phone or laptop because of browser caching. I found that checking the live site in a private tab on my phone and using Ctrl + F5 on my laptop confirms a deploy actually worked.
+I approached Task 2 by building on my Task 1 site instead of starting over, adding a dedicated programs.html and reusing the same navigation, buttons, cards, colors and footer so both pages feel like one website. I presented each program in its own section with a short line on its focus, a description of what learners will do, and its main skills as tags, so a visitor can see what each program is about and who it suits. To make the two easy to tell apart, I gave each program its own accent color (indigo for Data Analytics, green for Web Development) and a matching label, border and skill tags. I learned how to use CSS variables to change a component’s color per program with one shared rule, and how to link between pages and sections.
